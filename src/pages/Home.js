@@ -1,7 +1,13 @@
-import React from 'react'
+import {HeroSection, Contact, AboutUs} from '../components'
 
 export const Home = () => {
+  
+
   return (
-    <main>home</main>
-  )
-}
+    <>
+    <HeroSection/>
+    <AboutUs/>
+    <Contact/>
+    </>
+  );
+};
